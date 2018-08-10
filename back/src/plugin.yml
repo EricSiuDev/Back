@@ -1,0 +1,14 @@
+name: BackPlugin
+main: me.eric.back.Main
+version: 1.0
+author: EricSiu
+api-version: 1.13
+commands:
+  back:
+    description: A command allows players to teleport back to their last death position.
+    permission: back.back
+    permission-message: You do not have permission back.back!
+permissions:
+  back.back:
+    description: Allows you to use /back
+    default: true
